@@ -1,6 +1,7 @@
 package Array;
 
 public class BuySell {
+
   public int maxProfit(int[] prices) {
     int i = 0;
     int maxProfit = 0;
@@ -27,10 +28,9 @@ public class BuySell {
   }
 
   public static void main (String[] args) {
-
     int[] prices = {1,2,3,4,5};
 
     System.out.println(new BuySell().maxProfit(prices));
-
   }
+
 }

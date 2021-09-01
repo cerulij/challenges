@@ -24,9 +24,6 @@ public class RemoveDuplicates {
     int[] nums = {1,1,2,2};
 
     System.out.println(new RemoveDuplicates().removeDuplicates(nums));
-
-
   }
-
 
 }

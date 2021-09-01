@@ -4,7 +4,9 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
+
 public class SingleNumber {
+
   public int singleNumber(int[] nums) {
     if (nums.length == 1) {
       return nums[0];
@@ -32,6 +34,7 @@ public class SingleNumber {
     return single;
   }
 
+
   public int singleNumberAgain(int[] nums) {
     HashMap<Integer, Integer> hash = new HashMap<>();
 
@@ -49,14 +52,12 @@ public class SingleNumber {
   }
 
 
-
   public static void main (String[] args) {
     int[] nums = {4,1,2,1,2};
 
     System.out.println(new SingleNumber().singleNumber(nums));
 
     System.out.println(new SingleNumber().singleNumberAgain(nums));
-
   }
 
 }

@@ -23,6 +23,5 @@ public class MoveZeroes {
     int[] nums = {0};
 
     new MoveZeroes().moveZeroes(nums);
-
   }
 }

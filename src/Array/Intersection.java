@@ -46,7 +46,6 @@ public class Intersection {
     int[] result = new Intersection().intersect(nums1, nums2);
 
     System.out.println(Arrays.toString(result));
-
   }
 
 }

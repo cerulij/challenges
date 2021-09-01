@@ -22,6 +22,7 @@ public class Duplicates {
     return false;
   }
 
+
   public boolean containsDuplicateHash(int[] nums) {
     Set<Integer> a = new HashSet<>();
 
@@ -41,7 +42,6 @@ public class Duplicates {
     new Duplicates().containsDuplicate(nums);
 
     new Duplicates().containsDuplicateHash(nums);
-
   }
 
 }
