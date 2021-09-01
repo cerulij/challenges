@@ -1,6 +1,6 @@
 // Return indices of the two numbers such that they add up to the target
 
-package Array;
+package Array1;
 
 import java.util.HashMap;
 import java.util.Map;

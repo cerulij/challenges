@@ -1,6 +1,6 @@
 // Find the element that appears once
 
-package Array;
+package Array1;
 
 import java.util.HashMap;
 import java.util.Hashtable;

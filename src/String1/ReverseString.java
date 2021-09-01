@@ -1,6 +1,6 @@
 // Reverse a string
 
-package String;
+package String1;
 
 import java.util.Arrays;
 

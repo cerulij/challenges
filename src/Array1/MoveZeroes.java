@@ -1,6 +1,6 @@
 // Move zeroes to the end
 
-package Array;
+package Array1;
 
 public class MoveZeroes {
 

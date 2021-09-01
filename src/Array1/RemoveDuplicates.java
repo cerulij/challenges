@@ -1,6 +1,6 @@
 // Remove duplicates from a sorted array
 
-package Array;
+package Array1;
 
 public class RemoveDuplicates {
 

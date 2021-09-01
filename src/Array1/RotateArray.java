@@ -1,6 +1,6 @@
 // Rotate array by k steps
 
-package Array;
+package Array1;
 
 import java.util.Arrays;
 

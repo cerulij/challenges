@@ -1,6 +1,6 @@
 // Given two arrays, return array of their intersection
 
-package Array;
+package Array1;
 
 import java.util.ArrayList;
 import java.util.HashMap;

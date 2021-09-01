@@ -1,6 +1,6 @@
 // Increment the integer in the array by one
 
-package Array;
+package Array1;
 
 public class PlusOne {
 

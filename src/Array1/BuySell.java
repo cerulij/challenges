@@ -1,6 +1,6 @@
 // Best time to but and sell a stock
 
-package Array;
+package Array1;
 
 public class BuySell {
 

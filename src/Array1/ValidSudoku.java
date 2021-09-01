@@ -1,6 +1,6 @@
 // Determine if the sudoku board is valid
 
-package Array;
+package Array1;
 
 import java.util.HashSet;
 

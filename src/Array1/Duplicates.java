@@ -1,6 +1,6 @@
 // Find if any value appears at least twice
 
-package Array;
+package Array1;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,6 +1,6 @@
 // Rotate the 2D matrix by 90 degrees
 
-package Array;
+package Array1;
 
 public class RotateImage {
 

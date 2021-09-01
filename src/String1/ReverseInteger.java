@@ -1,6 +1,6 @@
 // Reverse a 32-bit integer
 
-package String;
+package String1;
 
 public class ReverseInteger {
 
