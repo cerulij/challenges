@@ -1,3 +1,5 @@
+// Remove duplicates from a sorted array
+
 package Array;
 
 public class RemoveDuplicates {

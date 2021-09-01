@@ -1,3 +1,5 @@
+// Find the element that appears once
+
 package Array;
 
 import java.util.HashMap;

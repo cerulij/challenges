@@ -1,3 +1,5 @@
+// Find if any value appears at least twice
+
 package Array;
 
 import java.util.Arrays;

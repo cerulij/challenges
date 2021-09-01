@@ -1,7 +1,6 @@
-package String;
+// Reverse a 32-bit integer
 
-import java.util.Arrays;
-import java.util.LinkedList;
+package String;
 
 public class ReverseInteger {
 
