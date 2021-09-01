@@ -18,10 +18,4 @@ public class MoveZeroes {
     }
   }
 
-
-  public static void main (String[] args) {
-    int[] nums = {0};
-
-    new MoveZeroes().moveZeroes(nums);
-  }
 }

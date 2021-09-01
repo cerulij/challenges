@@ -20,11 +20,4 @@ public class PlusOne {
     return digits;
   }
 
-
-  public static void main (String[] args) {
-    int[] nums = {9,9,9};
-
-    new PlusOne().plusOne(nums);
-  }
-
 }

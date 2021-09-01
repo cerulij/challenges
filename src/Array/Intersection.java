@@ -38,14 +38,4 @@ public class Intersection {
     return result;
   }
 
-
-  public static void main (String[] args) {
-    int[] nums1 = {4,9,5};
-    int[] nums2 = {9,4,9,8,4};
-
-    int[] result = new Intersection().intersect(nums1, nums2);
-
-    System.out.println(Arrays.toString(result));
-  }
-
 }
