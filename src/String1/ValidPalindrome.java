@@ -1,3 +1,5 @@
+// Determine if a string is a palindrome considering only alphanumeric ignoring cases
+
 package String1;
 
 public class ValidPalindrome {
