@@ -32,12 +32,4 @@ public class ReverseString {
     }
   }
 
-
-  public static void main (String[] args) {
-    char[] s = {'h'};
-    char[] s2 = {'H', 'a', 'n', 'n', 'a', 'h'};
-
-    new ReverseString().reverseString(s);
-  }
-
 }
