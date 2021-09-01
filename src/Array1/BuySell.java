@@ -29,10 +29,4 @@ public class BuySell {
     return maxProfit;
   }
 
-  public static void main (String[] args) {
-    int[] prices = {1,2,3,4,5};
-
-    System.out.println(new BuySell().maxProfit(prices));
-  }
-
 }
