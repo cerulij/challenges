@@ -51,15 +51,4 @@ public class StringInteger {
     return (int) result;
   }
 
-
-
-  public static void main (String[] args) {
-    String s = "-2147483649";
-
-    System.out.println(new StringInteger().myAtoi(s));
-
-  }
-
-
-
 }
