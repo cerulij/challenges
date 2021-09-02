@@ -43,9 +43,6 @@ public class StrStr {
     String needle = "c";
 
     System.out.println(new StrStr().strStr(haystack, needle));
-
-
   }
-
 
 }
