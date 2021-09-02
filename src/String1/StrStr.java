@@ -16,6 +16,10 @@ public class StrStr {
     }
 
     for (int i = 0; i <= m - n; ++i) {
+      if (i + n > m) {
+        break;
+      }
+
       int tempIndex = 0;
       int j = 0;
       if (haystack.charAt(i) == needle.charAt(j)) {
@@ -36,13 +40,6 @@ public class StrStr {
     }
 
     return -1;
-  }
-
-  public static void main (String[] args) {
-    String haystack = "abc";
-    String needle = "c";
-
-    System.out.println(new StrStr().strStr(haystack, needle));
   }
 
 }
