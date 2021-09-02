@@ -3,6 +3,7 @@
 package String1;
 
 public class StringInteger {
+
   public int myAtoi(String s) {
     long result = 0;
 
