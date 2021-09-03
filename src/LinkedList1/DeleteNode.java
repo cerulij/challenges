@@ -1,4 +1,4 @@
-// Delete a node without knowing the head of the singly linked list
+// Delete a node in a singly linked list without knowing the head
 
 package LinkedList1;
 

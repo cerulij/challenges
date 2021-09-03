@@ -1,4 +1,4 @@
-// Remove duplicates from a sorted array
+// Remove duplicates in-place from a sorted array in non-decreasing order. Maintain relative order
 
 package Array1;
 

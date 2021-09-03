@@ -1,4 +1,4 @@
-// Return index of the first occurrence of needle in a haystack
+// Return index of the first occurrence of needle in haystack or -1 if needle not in haystack
 
 package String1;
 

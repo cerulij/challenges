@@ -1,4 +1,4 @@
-// Find the first non-repeating character
+// Find the first non-repeating character and return its index
 
 package String1;
 

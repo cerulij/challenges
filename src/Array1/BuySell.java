@@ -1,4 +1,4 @@
-// Best time to but and sell a stock
+// Best time to buy and sell a stock to achieve the maximum profit
 
 package Array1;
 

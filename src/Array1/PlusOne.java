@@ -1,4 +1,4 @@
-// Increment the integer in the array by one
+// Increment the integer in the array by one and return the resulting array of digits
 
 package Array1;
 

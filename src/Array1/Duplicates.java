@@ -1,4 +1,4 @@
-// Find if any value appears at least twice
+// Return true if any value appears at least twice
 
 package Array1;
 

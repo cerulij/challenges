@@ -1,4 +1,4 @@
-// Reverse a string
+// Reverse a string in-place
 
 package String1;
 

@@ -1,4 +1,4 @@
-// Find the element that appears once
+// Find the element that appears only once
 
 package Array1;
 

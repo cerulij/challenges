@@ -1,4 +1,4 @@
-// Find the longest common prefix among an array of strings
+// Find the longest common prefix amongst an array of strings
 
 package String1;
 

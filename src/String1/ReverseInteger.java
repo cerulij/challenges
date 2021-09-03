@@ -1,4 +1,4 @@
-// Reverse a 32-bit integer
+// Reverse a 32-bit integer. Assume environment does not allow 64-bit integers
 
 package String1;
 

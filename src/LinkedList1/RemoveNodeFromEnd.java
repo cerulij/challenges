@@ -1,4 +1,4 @@
-// Remove node from the end of a singly linked list using two pointer technique
+// Remove the nth node from the end of a singly linked list
 
 package LinkedList1;
 

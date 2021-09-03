@@ -1,4 +1,4 @@
-// Given two arrays, return array of their intersection
+// Given two arrays, return an array of their intersection
 
 package Array1;
 

@@ -1,4 +1,4 @@
-// Determine how you would say a digit string
+// Return the count-and-say sequence (how you say a digit string) of a number
 
 package String1;
 

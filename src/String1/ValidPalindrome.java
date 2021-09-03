@@ -1,4 +1,4 @@
-// Determine if a string is a palindrome considering only alphanumeric ignoring cases
+// Determine if a string is a palindrome considering only alphanumeric characters ignoring cases
 
 package String1;
 

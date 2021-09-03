@@ -1,4 +1,4 @@
-// Move zeroes to the end
+// Given an array of integer, move zeroes to the end in-place
 
 package Array1;
 

@@ -1,4 +1,4 @@
-// Rotate array by k steps
+// Rotate array to the right by k steps
 
 package Array1;
 
