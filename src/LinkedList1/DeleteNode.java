@@ -1,7 +1,6 @@
 // Delete a node without knowing the head of the singly linked list
 
-package String1;
-
+package LinkedList1;
 
 class ListNode {
   int val;
