@@ -1,3 +1,5 @@
+// Find the longest common prefix among an array of strings
+
 package String1;
 
 public class LongestCommonPrefix {
