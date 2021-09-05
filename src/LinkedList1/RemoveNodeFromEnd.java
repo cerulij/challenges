@@ -13,7 +13,6 @@ public class RemoveNodeFromEnd {
         iterator = iterator.next;
       }
 
-      iterator = head;
       if (n == count) {
         if (head.next != null) {
           return head.next;
@@ -23,6 +22,7 @@ public class RemoveNodeFromEnd {
       }
 
       ListNode temp = new ListNode(0);
+      iterator = head;
       while (n < count) {
         temp = iterator;
         iterator = iterator.next;

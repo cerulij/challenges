@@ -19,13 +19,13 @@ public class TreeNode {
     this.right = right;
   }
 
-  public void print(TreeNode root) {
+  public void inOrder(TreeNode root) {
     if (root == null) {
       return;
     }
 
-    print(root.left);
+    inOrder(root.left);
     System.out.println(root.val);
-    print(root.right);
+    inOrder(root.right);
   }
 }
