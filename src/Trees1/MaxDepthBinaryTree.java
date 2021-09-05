@@ -12,7 +12,7 @@ public class MaxDepthBinaryTree {
     int left = maxDepth(root.left);
     int right = maxDepth(root.right);
 
-    return (left >= right ? left : right) + 1;
+    return (Math.max(left, right)) + 1;
   }
 
   public static void main (String[] args) {
