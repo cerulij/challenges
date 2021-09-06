@@ -1,4 +1,6 @@
 // Given the root of a binary tree, determine if it is a valid BST
+// Inorder traversal using a stack
+// (DFS iterative)
 
 package Trees1;
 
