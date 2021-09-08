@@ -2,7 +2,7 @@
 
 package DP;
 
-public class maxSubarray {
+public class MaxSubarray {
 
   public int maxSubArray(int[] nums) {
     int current = nums[0];
