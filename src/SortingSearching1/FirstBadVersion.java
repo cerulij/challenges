@@ -1,6 +1,6 @@
 // Implement a function to find the first bad version. Linear search not possible
 
-package SortingSearching;
+package SortingSearching1;
 
 public class FirstBadVersion {
 

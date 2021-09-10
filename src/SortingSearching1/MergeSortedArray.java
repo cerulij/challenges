@@ -1,7 +1,7 @@
 // Given two integer array sorted in non-decreasing order and their sizes, merge the two in the first one
 // (Merge Sort, merge portion principle)
 
-package SortingSearching;
+package SortingSearching1;
 
 public class MergeSortedArray {
 
