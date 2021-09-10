@@ -1,6 +1,6 @@
 // Find the contiguous subarray of an array of ints that has the largest sum
 
-package DP;
+package DP1;
 
 public class MaxSubarray {
 

@@ -1,6 +1,6 @@
 // Find the max sum of numbers such that no two numbers are adjacent
 
-package DP;
+package DP1;
 
 public class HouseRobber {
   public int rob(int[] nums) {
