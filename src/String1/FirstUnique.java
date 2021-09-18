@@ -16,12 +16,19 @@ public class FirstUnique {
     }
 
     for (int i = 0; i < a.length; i++) {
-      if (hm.containsKey(a[i]) && hm.get(a[i]) == 1) {
+      if (hm.get(a[i]) == 1) {
         return i;
       }
     }
 
     return -1;
+  }
+
+
+  public static void main (String[] args) {
+    String s = "aabb";
+
+    System.out.println(new FirstUnique().firstUniqChar(s));
   }
 
 }
