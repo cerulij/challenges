@@ -31,20 +31,22 @@ public class ValidPalindrome {
 
   public boolean isPalindromeAgain(String s) {
     int right = s.length() - 1;
+    int left = 0;
 
-    for (int left = 0; left < s.length(); left++) {
-      while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
+    while (left < right) {
+      if (!Character.isLetterOrDigit(s.charAt(left))) {
         left++;
       }
 
-      while (right > left && !Character.isLetterOrDigit(s.charAt(right))) {
+      if (!Character.isLetterOrDigit(s.charAt(right))) {
         right--;
       }
 
-      if (s.charAt(left) != s.charAt(right)) {
+      if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) {
         return false;
       }
 
+      left++;
       right--;
     }
 
