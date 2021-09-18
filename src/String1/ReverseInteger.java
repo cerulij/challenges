@@ -33,4 +33,20 @@ public class ReverseInteger {
     return result;
   }
 
+
+  public static void main (String[] args) {
+    // just to reverse without 32-bit constraint
+    int x = 123;
+    int result = 0;
+
+    while (x != 0) {
+      int pop = x % 10;
+      x = x / 10;
+
+      result = result * 10 + pop;
+    }
+
+    System.out.println(result);
+  }
+
 }
