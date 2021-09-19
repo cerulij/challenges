@@ -17,9 +17,9 @@ public class StrStr {
     }
 
     for (int i = 0; i <= m - n; ++i) {
-      if (i + n > m) {
-        break;
-      }
+//      if (i + n > m) {
+//        break;
+//      }
 
       int tempIndex = 0;
       int j = 0;
