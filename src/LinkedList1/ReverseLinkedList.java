@@ -5,27 +5,6 @@ package LinkedList1;
 public class ReverseLinkedList {
 
   public ListNode reverseList(ListNode head) {
-    if (head == null) {
-      return null;
-    }
-
-    ListNode iterator = head.next;
-    head.next = null;
-
-    while (iterator != null) {
-      ListNode temp = iterator.next;
-
-      iterator.next = head;
-
-      head = iterator;
-
-      iterator = temp;
-    }
-
-    return head;
-  }
-
-  public ListNode reverseListAgain(ListNode head) {
     ListNode prev = null;
     ListNode curr = head;
 
@@ -55,7 +34,7 @@ public class ReverseLinkedList {
     node3.next = node4;
     node4.next = node5;
 
-    ListNode iterator = new ReverseLinkedList().reverseListAgain(node1);
+    ListNode iterator = new ReverseLinkedList().reverseList(node1);
 
     while (iterator != null) {
       System.out.println(iterator.val);
