@@ -1,6 +1,6 @@
 // Given the root of the tree, return the level order traversal of its nodes' values
 // Left to right, level by level
-// (BFS iterative and recursive)
+// (BFS iteratively with a queue and recursively)
 
 package Trees1;
 
