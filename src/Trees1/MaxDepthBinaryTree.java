@@ -1,4 +1,5 @@
 // Given the root, find the maximum depth of a binary tree
+// (DFS recursively)
 
 package Trees1;
 

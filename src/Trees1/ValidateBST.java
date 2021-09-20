@@ -1,6 +1,5 @@
 // Given the root of a binary tree, determine if it is a valid BST
-// Inorder traversal using a stack
-// (DFS iterative)
+// (DFS iteratively using stack)
 
 package Trees1;
 
@@ -44,13 +43,12 @@ public class ValidateBST {
   public boolean isValidBSTAgain(TreeNode root) {
     List<TreeNode> stack = new ArrayList<>();
     Integer prev = null;
-    TreeNode curr = root;
 
-    while (!stack.isEmpty() || curr != null) {
+    while (!stack.isEmpty() || root != null) {
 
-      while (curr != null) {
-        stack.add(curr);
-        curr = curr.left;
+      while (root != null) {
+        stack.add(root);
+        root = root.left;
       }
 
       root = stack.remove(stack.size() - 1);
@@ -60,7 +58,7 @@ public class ValidateBST {
       }
 
       prev = root.val;
-      curr = root.right;
+      root = root.right;
     }
 
     return true;
@@ -92,6 +90,6 @@ public class ValidateBST {
     root2.left = nodeL;
     root2.right = nodeR;
 
-    System.out.println(new ValidateBST().isValidBSTAgain(root));
+    System.out.println(new ValidateBST().isValidBSTAgain(root2));
   }
 }
