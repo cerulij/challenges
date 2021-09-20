@@ -8,28 +8,34 @@ public class RemoveNodeFromEnd {
       int count = 0;
 
       ListNode iterator = head;
+      // count the linked list
       while (iterator != null) {
         count += 1;
         iterator = iterator.next;
       }
 
+      // if n = count
       if (n == count) {
+        // delete the head and return the next one
         if (head.next != null) {
           return head.next;
         } else {
+          // if the head is the only node, return null
           return null;
         }
       }
 
-      ListNode temp = new ListNode(0);
+      ListNode current = new ListNode();
       iterator = head;
+
+      // also: while (i < (count - n))
       while (n < count) {
-        temp = iterator;
-        iterator = iterator.next;
+        current = iterator;
+        iterator = iterator.next; // next
         count--;
       }
 
-      temp.next = iterator.next;
+      current.next = iterator.next;
 
       return head;
   }
@@ -46,8 +52,7 @@ public class RemoveNodeFromEnd {
     node3.next = node4;
     node4.next = node5;
 
-    System.out.println(new RemoveNodeFromEnd().removeNthFromEnd(node1, 2));
-
+    new RemoveNodeFromEnd().removeNthFromEnd(node1, 4);
   }
 
 
