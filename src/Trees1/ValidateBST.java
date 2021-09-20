@@ -8,38 +8,6 @@ import java.util.List;
 
 public class ValidateBST {
 
-  public boolean isValidBST(TreeNode root) {
-    List<TreeNode> res = new ArrayList<>();
-    List<TreeNode> stack = new ArrayList<>();
-
-    TreeNode curr = root;
-
-    while (!stack.isEmpty() || curr != null) {
-
-      while (curr != null) {
-        stack.add(curr);
-        curr = curr.left;
-      }
-
-      curr = stack.remove(stack.size() - 1);
-
-      res.add(curr);
-
-      curr = curr.right;
-    }
-
-    int j = 1;
-    for (int i = 0; i < res.size() - 1; i++) {
-      if (res.get(j).val <= res.get(i).val) {
-        return false;
-      }
-      j++;
-    }
-
-    return true;
-  }
-
-
   public boolean isValidBSTAgain(TreeNode root) {
     List<TreeNode> stack = new ArrayList<>();
     Integer prev = null;
