@@ -1,4 +1,4 @@
-// You can either climb 1 or 2 steps. How many distinct ways you can climb to the top of the stairs?
+// You can either climb 1 or 2 steps. How many distinct ways can you climb to the top of the stairs?
 
 package DP1;
 
