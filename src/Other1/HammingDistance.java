@@ -15,6 +15,7 @@ public class HammingDistance {
       }
 
       // shift all the xor to the right so we can check the last digit every time
+      // xor =>> 1;
       xor = xor >> 1;
     }
 
