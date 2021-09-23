@@ -13,11 +13,12 @@ public class FirstBadVersion {
   }
 
 
+  // binary search algorithm
   public int firstBadVersion(int n) {
     int left = 1;
     int right = n;
 
-    while (right > left) {
+    while (left < right) {
       int mid = left + (right - left) / 2;
 
       if (isBadVersion(mid)) {
@@ -27,7 +28,7 @@ public class FirstBadVersion {
       }
     }
 
-    return right;
+    return left;
   }
 
 }
