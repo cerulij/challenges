@@ -14,7 +14,8 @@ public class NumberOneBits {
       }
 
       // shift the mask to the left by 1 position
-      mask <<= 1;
+      // mask <<= 1;
+      mask = mask << 1;
     }
 
     return count;
