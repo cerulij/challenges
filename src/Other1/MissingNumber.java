@@ -2,24 +2,22 @@
 
 package Other1;
 
-import java.util.Arrays;
+import java.util.HashSet;
 
 public class MissingNumber {
 
   public int missingNumber(int[] nums) {
 
-    Arrays.sort(nums);
+    HashSet<Integer> set = new HashSet<>();
 
-    if (nums[0] != 0) {
-      return 0;
+    for (int num : nums) {
+      set.add(num);
     }
 
-    else if (nums[nums.length - 1] != nums.length) {
-      return nums.length;
-    }
+    int last = nums.length + 1;
 
-    for (int i = 1; i < nums.length; i++) {
-      if (nums[i] != i) {
+    for (int i = 0; i < last; i++) {
+      if (!set.contains(i)) {
         return i;
       }
     }
