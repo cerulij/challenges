@@ -10,6 +10,7 @@ public class HammingDistance {
 
     while (xor != 0) {
       // if the last digit is a 1 (not a 0)
+      // if (xor & 1 == 1) {
       if (xor % 2 == 1) {
         count++;
       }
