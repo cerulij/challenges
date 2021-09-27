@@ -34,6 +34,8 @@ public class CoinChange {
       return -1;
     }
     return c[amount];
+
+//    return c[amount] > amount ? -1 : c[amount];
   }
 
 
