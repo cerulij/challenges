@@ -1,6 +1,6 @@
 // Given two integers x and y, return the hamming distance (the positions where the bits are different)
 
-package Other;
+package Binary;
 
 public class HammingDistance {
 

@@ -1,6 +1,6 @@
 // Count the number of 1 bits in an unsigned integer
 
-package Other;
+package Binary;
 
 public class NumberOneBits {
 
