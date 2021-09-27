@@ -8,13 +8,13 @@ public class LongestCommonSubsequence {
     int n = text1.length();
     int m = text2.length();
 
-    // dp is filled with zeros
+    // dp is filled with zeroes
     // we need the first row and column to be "empty" for the bottom-up approach to work
     // that is why we need 1 more than the size of the two texts
     int[][] dp = new int[n + 1][m + 1];
 
     // we fill dp[r][c] each column at a time from left to right and then down
-    // remember: the first row and first column are filled with zeros
+    // remember: the first row and first column are filled with zeroes
     for (int r = 1; r <= n; r++) {
       for (int c = 1; c <= m; c++) {
         if (text1.charAt(r - 1) == text2.charAt(c - 1)) {
