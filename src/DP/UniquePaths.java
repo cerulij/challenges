@@ -21,6 +21,11 @@ public class UniquePaths {
       dp[0][c] = 1;
     }
 
+    // or:
+    // for (int[] arr : dp) {
+    //   Arrays.fill(arr, 1);
+    // }
+
     // iterate through all inner cells from (1, 1) to (m-1, n-1)
     for (r = 1; r < m; r++) {
       for (c = 1; c < n; c++) {
