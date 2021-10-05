@@ -16,10 +16,7 @@ public class StrStr {
       return -1;
     }
 
-    for (int i = 0; i <= m - n; ++i) {
-//      if (i + n > m) {
-//        break;
-//      }
+    for (int i = 0; i <= m - n; i++) {
 
       int tempIndex = 0;
       int j = 0;
@@ -28,9 +25,8 @@ public class StrStr {
         while (j < n) {
           if (haystack.charAt(i+j) != needle.charAt(j)) {
             break;
-          } else {
-            j++;
           }
+          j++;
         }
 
       }

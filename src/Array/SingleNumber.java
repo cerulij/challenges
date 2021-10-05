@@ -40,13 +40,13 @@ public class SingleNumber {
   public int singleNumberAgain(int[] nums) {
     HashMap<Integer, Integer> hash = new HashMap<>();
 
-    for (int i : nums) {
-      hash.put(i, hash.getOrDefault(i, 0) + 1);
+    for (int n : nums) {
+      hash.put(n, hash.getOrDefault(n, 0) + 1);
     }
 
-    for (int i : nums) {
-      if (hash.get(i) == 1) {
-        return i;
+    for (int n : nums) {
+      if (hash.get(n) == 1) {
+        return n;
       }
     }
 
