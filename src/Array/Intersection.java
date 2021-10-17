@@ -8,23 +8,23 @@ import java.util.HashMap;
 public class Intersection {
 
   public int[] intersect(int[] nums1, int[] nums2) {
-    if (nums2.length > nums1.length) {
+    if (nums1.length > nums2.length) {
       return intersect(nums2, nums1);
     }
 
     ArrayList<Integer> temp = new ArrayList<>();
-    HashMap<Integer, Integer> hash = new HashMap<>();
+    HashMap<Integer, Integer> hm = new HashMap<>();
 
     for (int num : nums1) {
-      hash.put(num, hash.getOrDefault(num, 0) + 1);
+      hm.put(num, hm.getOrDefault(num, 0) + 1);
     }
 
     for (int i : nums2) {
-      if (hash.containsKey(i)) {
-        int count = hash.get(i);
+      if (hm.containsKey(i)) {
+        int count = hm.get(i);
 
         if (count > 0) {
-          hash.put(i, --count);
+          hm.put(i, --count);
           temp.add(i);
         }
       }

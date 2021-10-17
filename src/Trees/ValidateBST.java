@@ -19,7 +19,7 @@ public class ValidateBST {
         root = root.left;
       }
 
-      root = stack.remove(stack.size() - 1);
+      root = stack.remove(stack.size() - 1); // stack.pop()
 
       if (prev != null && root.val <= prev) {
         return false;
