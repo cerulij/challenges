@@ -15,7 +15,7 @@ public class CloneGraph {
       return null;
     }
 
-
+    // keep track of visited nodes so we don't get into a cycle
     if (visited.containsKey(node)) {
       return visited.get(node);
     }
