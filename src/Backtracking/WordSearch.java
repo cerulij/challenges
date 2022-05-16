@@ -1,6 +1,6 @@
 // Given an m x n matrix, return true if the the word exists in the matrix
 
-package Matrix;
+package Backtracking;
 
 public class WordSearch {
   private char[][] board;
@@ -52,6 +52,9 @@ public class WordSearch {
     board[row][col] = word.charAt(index);
     return false;
   }
+
+
+
 
   public static void main (String[] args) {
     char[][] board = {{'C', 'C', 'C', 'C'}, {'C', 'A', 'B', 'C'}, {'C', 'B', 'B', 'A'}, {'C', 'C', 'C', 'C'}};
