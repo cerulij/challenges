@@ -18,7 +18,7 @@ class Node {
 }
 
 public class CopyListWithRandomPointer {
-  private HashMap<Node, Node> hm = new HashMap<>();
+  private HashMap<Node, Node> visited = new HashMap<>();
 
 
   public Node copyRandomList(Node head) {
@@ -26,13 +26,14 @@ public class CopyListWithRandomPointer {
       return null;
     }
 
-    if (hm.containsKey(head)) {
-      return hm.get(head);
+    // this stops the infinite cycle
+    if (visited.containsKey(head)) {
+      return visited.get(head);
     }
 
     Node clone = new Node(head.val);
 
-    hm.put(head, clone);
+    visited.put(head, clone);
 
     clone.next = copyRandomList(head.next);
     clone.random = copyRandomList(head.random);
@@ -55,7 +56,5 @@ public class CopyListWithRandomPointer {
 
     new CopyListWithRandomPointer().copyRandomList(node4);
   }
-
-
 
 }
