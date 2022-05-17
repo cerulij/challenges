@@ -54,8 +54,6 @@ public class WordSearch {
   }
 
 
-
-
   public static void main (String[] args) {
     char[][] board = {{'C', 'C', 'C', 'C'}, {'C', 'A', 'B', 'C'}, {'C', 'B', 'B', 'A'}, {'C', 'C', 'C', 'C'}};
     String word = "ABBA";
