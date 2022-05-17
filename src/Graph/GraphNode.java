@@ -11,8 +11,8 @@ public class GraphNode {
   }
 
   public GraphNode(int val, List<GraphNode> neighbors) {
-    val = val;
-    neighbors = neighbors;
+    this.val = val;
+    this.neighbors = neighbors;
   }
 
 }
